@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+$font-family: 'Manrope', sans-serif;
+$text: rgb(255, 255,255);
+$text2: rgb(204, 0, 255);
+$bg1: linear-gradient(90deg, #000000 0%, #290442 100%);
+$bg2: rgb(47, 101, 182);
+
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+//breakpoins
+$xms: 480px;
+$sm: 600px;
+$md: 960px;
+$lg: 1224px;
+$xl: 1920px;
+
+@mixin breakpoint($point){
+     @if $point == xms {
+          @media (min-width: $xms) {
+               @content;
+          }
+     }
+     @if $point == sm {
+          @media (min-width: $sm) {
+               @content;
+          }
+     }
+     @if $point == md {
+          @media (min-width: $md) {
+               @content;
+          }
+     }
+     @if $point == lg {
+          @media (min-width: $lg) {
+               @content;
+          }
+     }
+     @if $point == xl {
+          @media (min-width: $xl) {
+               @content;
+          }
+     }
+}
