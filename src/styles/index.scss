@@ -13,3 +13,20 @@ body {
      color: $text;
      height: 300vh;
 }
+
+button {
+     //reset to default
+     font-family: inherit;
+     outline: none;
+     border: none;
+     background: none;
+     letter-spacing: inherit;
+     color: inherit;
+     font-size: inherit;
+     text-align: inherit;
+     padding: 0;
+}
+
+a {
+     text-decoration: none;
+}

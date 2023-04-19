@@ -3,6 +3,7 @@
 $font-family: 'Manrope', sans-serif;
 $text: rgb(255, 255,255);
 $text2: rgb(204, 0, 255);
+$text3: #f2bef5;
 $bg1: linear-gradient(90deg, #000000 0%, #290442 100%);
 $bg2: rgb(47, 101, 182);
 
@@ -16,6 +17,12 @@ $sm: 600px;
 $md: 960px;
 $lg: 1224px;
 $xl: 1920px;
+
+@mixin centralize {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
 
 @mixin breakpoint($point){
      @if $point == xms {
