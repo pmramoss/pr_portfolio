@@ -12,7 +12,7 @@ export default function Home( ){
                     <div className={styles.home__info__text}>
                          <h3>Olá, eu sou</h3>
                          <h1>Pedro Lucas Ramos</h1>
-                         <h3>Desenvolvedor Front-end React</h3>
+                         <h3>Desenvolvedor Front-end</h3>
                     </div>
                     <div className={styles.home__info__link}>
                          <a href="">Download CV <BsDownload /></a>
