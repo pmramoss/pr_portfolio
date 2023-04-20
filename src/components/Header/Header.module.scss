@@ -2,7 +2,6 @@
 
 .header {
      height: 72px;
-     background: black;
      color: $text2;
      position: fixed;
      z-index: 1000;
@@ -80,7 +79,7 @@
           height: 100%;
 
           transition: .3s ease color;
-          &:hover {
+          &:hover{
                color: $text3;
           }
      }
