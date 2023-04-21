@@ -17,7 +17,7 @@ export default function Header( ){
                               <a href="#home" className={styles.nav__item}>Inicio</a>
                               <a href="#aboutme" className={styles.nav__item}>Sobre</a>
                               <a href="#projects" className={styles.nav__item}>Projetos</a>
-                              <a href="" className={styles.nav__item}>Certificações</a>
+                              <a href="#certificates" className={styles.nav__item}>Certificações</a>
                          </nav>
                     </div>
                     <div>

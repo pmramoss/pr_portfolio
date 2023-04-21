@@ -1,0 +1,41 @@
+@import "../../styles/variables.scss";
+
+.certificates{
+     @include centralize;
+     flex-direction: column;
+     height: 100vh;
+     &__title{
+          @include breakpoint(xs){
+               font-size: 18px;
+               margin-bottom: 2rem;
+          }
+          @include breakpoint(md){
+               font-size: 28px;
+               margin-bottom: 2.5rem;
+          }
+     }
+
+     &__courses{
+         @include breakpoint(xs){
+               li{
+                    list-style-type: none;
+                    margin-bottom: 1.5rem;
+
+                    a{
+                         color: $text;
+                         &:hover{
+                              color: $text2;
+                              transition: .5s ease color;
+                         }
+                    }
+               }
+         }
+         @include breakpoint(md){
+               font-size: 18px;
+         }
+         @include breakpoint(lg){
+               font-size: 20px;
+         }
+     }
+
+}

@@ -111,11 +111,19 @@
           @include breakpoint(sm){
                padding: 0;
                width: 100%;
+               h3{
+                    font-size: 25px;
+               }
           }
           @include breakpoint(md){
                padding-top: 2.5rem;
                &__certifications {
                     width: 40%;
+               }
+          }
+          @include breakpoint(lg){
+               &__text{
+                    font-size: 20px;
                }
           }
           @include breakpoint(xl){

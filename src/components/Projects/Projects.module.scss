@@ -16,8 +16,9 @@
      &__title {
           @include breakpoint(xs){
                padding: 5rem 0 2rem 0;
+               font-size: 20px;
           }
-          @include breakpoint(xs){
+          @include breakpoint(sm){
                padding: 5rem 0 4rem 0;
                font-size: 28px;
           }
@@ -149,7 +150,7 @@
                          font-size: 24px;
                     }
                     &__description, &__tags, &__links{
-                         font-size: 18px;
+                         font-size: 20px;
                     }
                }
                @include breakpoint(xl){
