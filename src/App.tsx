@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
 
 export default function App( ){
   return (
@@ -8,6 +9,7 @@ export default function App( ){
       <Header />
       <Home />
       <AboutMe />
+      <Projects />
     </>
   )
 }

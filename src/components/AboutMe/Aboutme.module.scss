@@ -1,6 +1,7 @@
 @import "../../styles/variables.scss";
 
 .aboutme {
+     height: 100vh;
      @include centralize;
      @include breakpoint(xs) {
           flex-direction: column;
@@ -10,14 +11,12 @@
           padding-top: 10rem;
      }
      @include breakpoint(sm){
-          padding-top: 8rem;
+          padding-top: 0;
      }
      @include breakpoint(md) {
-          padding-top: 8rem;
           flex-direction: row;
      }
      @include breakpoint(xl) {
-          padding-top: 10rem;
           justify-content: space-evenly;
      }
 
@@ -91,8 +90,12 @@
                     }
                }
 
-               &__certificacoes {
+               &__certifications {
                     width: 60%;
+
+                    a:hover {
+                         box-shadow: 2px 2px 4px white;
+                    }
                }
           }
           @include breakpoint(xms){

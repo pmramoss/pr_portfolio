@@ -2,6 +2,7 @@
 
 .header {
      height: 72px;
+     background: $bg3;
      color: $text2;
      position: fixed;
      z-index: 1000;
@@ -54,6 +55,9 @@
      font-size: 20px;
      font-weight: 700;
      color: $text2;
+     @include breakpoint(lg){
+          font-size: 26px;
+     }
 }
 
 .nav {
@@ -84,6 +88,10 @@
           transition: .3s ease color;
           &:hover{
                color: $text3;
+          }
+
+          @include breakpoint(lg){
+               font-size: 18px;
           }
      }
 
