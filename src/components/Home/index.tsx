@@ -1,6 +1,12 @@
 import styles from "./Home.module.scss";
 import ast from "../../assets/ast1.png";
 import { BsDownload } from "react-icons/bs"
+import { SiStyledcomponents } from "react-icons/si"
+import {ReactComponent as ReactLogo} from "../../assets/svgs/react.svg"
+import {ReactComponent as VueLogo} from "../../assets/svgs/vue.svg"
+import {ReactComponent as TypeLogo} from "../../assets/svgs/typescript.svg"
+import {ReactComponent as SassLogo} from "../../assets/svgs/sass.svg"
+import {ReactComponent as AdobeLogo} from "../../assets/svgs/adobe.svg"
 
 export default function Home( ){
      return(
@@ -16,6 +22,17 @@ export default function Home( ){
                     </div>
                     <div className={styles.home__info__link}>
                          <a href="">Download CV <BsDownload /></a>
+                    </div>
+                    <div className={styles.home__info__tecs}>
+                         <h3>Tecnologias:</h3>
+                         <ul>
+                              <li><ReactLogo/></li>
+                              <li><VueLogo/></li>
+                              <li><TypeLogo/></li>
+                              <li><AdobeLogo/></li>
+                              <li><SassLogo/></li>
+                              <li><SiStyledcomponents/></li>
+                         </ul>
                     </div>
                </div>
           </div>

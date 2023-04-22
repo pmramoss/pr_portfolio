@@ -19,6 +19,7 @@ $sm: 768px;
 $md: 960px;
 $lg: 1224px;
 $xl: 1920px;
+$xxl: 2050px;
 
 @mixin centralize {
      display: flex;
@@ -54,6 +55,11 @@ $xl: 1920px;
      }
      @if $point == xl {
           @media (min-width: $xl) {
+               @content;
+          }
+     }
+     @if $point == xxl {
+          @media (min-width: $xxl) {
                @content;
           }
      }
