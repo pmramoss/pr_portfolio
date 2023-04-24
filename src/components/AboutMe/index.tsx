@@ -18,14 +18,14 @@ export default function AboutMe({content}: Props){
                     <h3>{content.Aboutme_Title}</h3>
                     <p className={styles.aboutme__info__text}>{content.Aboutme_text1}<strong>{content.Aboutme_text2}</strong>{content.Aboutme_text3}</p>
                     <div className={styles.aboutme__info__certifications}>
-                         <a href="#certificate">{content.Aboutme_link} <GiAchievement /></a>
+                         <a href="#certificates">{content.Aboutme_link} <GiAchievement /></a>
                     </div>
                     <div className={styles.links}>
                          <div>
                               <a href="https://github.com/pmramoss" target="_blank"><ImGithub/>GitHub</a>
                          </div>
                          <div>
-                              <a href="www.linkedin.com/in/pedro-lucas-ramos-557189217" target="_blank"><ImLinkedin/>LinkedIn</a>
+                              <a href="https://linkedin.com/in/pedro-lucas-ramos-557189217" target="_blank"><ImLinkedin/>LinkedIn</a>
                          </div>
                     </div>
                </div>
