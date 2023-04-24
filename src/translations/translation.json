@@ -1,14 +1,68 @@
 {
-     "portugues":{
+     "portuguese":{
           "Nav1": "Início",
           "Nav2":  "Sobre",
           "Nav3": "Projetos",
           "Nav4": "Certificações",
+
           "Home_text1": "Olá, eu sou",
           "Home_text3": "Desenvolvedor Front-end",
-          ""
+
+          "Aboutme_Title": "Sobre mim",
+
+          "Aboutme_text1": "Apaixonado por programação, venho estudando incansavelmente por vários meses e adquiri bons conhecimentos em front-end como ",
+          "Aboutme_text2": "React, Vue, Typescript, AEM(Adobe Experience Manager), Sass and Styled Components",
+          "Aboutme_text3": ". Tenho como ponto forte o trabalho em equipe pois possuo boas habilidades comunicativas. Pronto pra mostrar o que posso fazer",
+
+          "Aboutme_link": "Certificações",
+
+          "Projects_title": "Meus Projetos",
+
+          "Projects_descript1": "Seguindo o contexto de um restaurante, é uma página feita para dar informações sobre os pratos. Utiliza de bibliotecas como React Router e React Icons.",
+          "Projects_descript2": "Página informativa sobre ChatGPT3 usando template do Figma. Originalmente em css puro, adaptei para Sass para praticar meu conhecimento com a biblioteca.",
+          "Projects_descript3": "Formulário com verificação. Após preenchê-lo totalmente e sem erros, será redirecionado a uma nova página, indicando sucesso no cadastro.",
+
+          "Certificate_title": "Certificações",
+
+          "Certificate_name1": "React: integrando seu projeto React com APIs",
+          "Certificate_name2": "React: lidando com arquivos estáticos",
+          "Certificate_name3": "React: escrevendo com Typescript",
+          "Certificate_name4": "React: conhecendo a biblioteca React Router",
+          "Certificate_name5": "React: abstraindo seu CSS com Styled Components",
+          "Certificate_name6": "SASS: CSS sintaticamente espetacular",
+          "Certificate_name7": "Vue JS 2 - Vue Router & Vuex"
      },
      "english":{
+          "Nav1": "Home",
+          "Nav2":  "About me",
+          "Nav3": "Projects",
+          "Nav4": "Certifications",
 
+          "Home_text1": "Hi, I am",
+          "Home_text3": "Front-end Developer",
+
+          "Aboutme_Title": "About me",
+
+          "Aboutme_text1": "Passionate for programming, I've been studying for several months and adquired good knowlegdes in front-end such as ",
+          "Aboutme_text2": "React, Vue, Typescript, AEM(Adobe Experience Manager), Sass and Styled Components",
+          "Aboutme_text3": ". Good team worker and have solid communicative skills. Ready to show you what I can do.",
+
+          "Aboutme_link": "Certifications",
+
+          "Projects_title": "My Projects",
+
+          "Projects_descript1": "Following the context of a restaurant, it was made to give the clients the informations about the menu. In this project I utilized React Router to link the pages and React Icons.",
+          "Projects_descript2": "Informative page about ChatGPT3 using a Figma template. Originally made using only css, I rewrote the code using Sass for practice purposes.",
+          "Projects_descript3": "Form with validation. After being fully filled and without errors, you'll be redirected to a new page which will indicate that the registration has been completed.",
+
+          "Certificate_title": "Certifications",
+
+          "Certificate_name1": "React: Integrating your React project with APIs",
+          "Certificate_name2": "React: dealing with static files",
+          "Certificate_name3": "React: writing with Typescript",
+          "Certificate_name4": "React: getting to know the React Router library",
+          "Certificate_name5": "React: abstracting your CSS with Styled Components",
+          "Certificate_name6": "SASS: Syntactically Spectacular CSS",
+          "Certificate_name7": "Vue JS 2 - Vue Router & Vuex"
      }
 }

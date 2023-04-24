@@ -1,7 +1,7 @@
 import styles from "./Certificate.module.scss"
 
 export default function Certificate( ){
-     const cursos =[{
+     const courses =[{
           name: "React: Integrating your React project with APIs",
           path: "https://cursos.alura.com.br/certificate/72c58814-bf41-455a-b5d0-f76094152fce" 
      }, {
@@ -20,7 +20,7 @@ export default function Certificate( ){
           name: "SASS: Syntactically Spectacular CSS",
           path: "https://cursos.alura.com.br/certificate/b5a8e6bf-c28f-4612-b4a7-13c6d1fbdf46" 
      }, {
-          name: "Curso Vue JS 2 - O Guia Completo (incl. Vue Router & Vuex)",
+          name: "Vue JS 2 - Vue Router & Vuex",
           path: "https://udemy-certificate.s3.amazonaws.com/image/UC-0148db9a-3ad3-4beb-9f00-b98d51411eab.jpg"
      }
 ]
@@ -31,9 +31,9 @@ export default function Certificate( ){
                </div>
                <div className={styles.certificates__courses}>
                     <ul>
-                         {cursos.map((cursos, index) => (
+                         {courses.map((courses, index) => (
                               <li key={index}>
-                                   <a href={cursos.path} target="_blank">{cursos.name}</a>
+                                   <a href={courses.path} target="_blank">{courses.name}</a>
                               </li>
                          ))}
                     </ul>

@@ -20,7 +20,7 @@ export default function Projects( ){
           code: "github",
           link: ""
      }, {
-          name: "Formulário",
+          name: "Form",
           description: "Formulário com verificação. Após preenchê-lo totalmente e sem erros, será redirecionado a uma nova página, indicando sucesso no cadastro.",
           tags: ["React", "Styled Components"],
           image: form,

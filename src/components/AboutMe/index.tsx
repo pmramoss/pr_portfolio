@@ -10,7 +10,7 @@ export default function AboutMe(){
                </div>
                <div className={styles.aboutme__info}>
                     <h3>Sobre mim</h3>
-                    <p className={styles.aboutme__info__text}>Encontrei meu amor na programação e desde então venho estudando e me dedicando ao máximo para desenvolver minhas habilidades. Hoje possuo conhecimentos centrados no Front-end, usando <strong> React, Vue e Typescript</strong>, além das bibliotecas de css:<strong> Sass e Styled Components</strong>. Tenho como ponto forte o trabalho em equipe pois possuo boas habilidades comunicativas tanto para apresentações em público como no dia a dia.</p>
+                    <p className={styles.aboutme__info__text}>Encontrei meu amor na programação e desde então venho estudando e me dedicando ao máximo para desenvolver minhas habilidades. Hoje possuo conhecimentos centrados no Front-end, usando <strong>React, Vue, Typescript e AEM</strong>, além das bibliotecas de css:<strong>Sass e Styled Components</strong>. Tenho como ponto forte o trabalho em equipe pois possuo boas habilidades comunicativas tanto para apresentações em público como no dia a dia.</p>
                     <div className={styles.aboutme__info__certifications}>
                          <a href="/certificate">Certificações <GiAchievement /></a>
                     </div>

@@ -7,6 +7,8 @@ import {ReactComponent as VueLogo} from "../../assets/svgs/vue.svg"
 import {ReactComponent as TypeLogo} from "../../assets/svgs/typescript.svg"
 import {ReactComponent as SassLogo} from "../../assets/svgs/sass.svg"
 import {ReactComponent as AdobeLogo} from "../../assets/svgs/adobe.svg"
+import {ReactComponent as Bra} from "../../assets/svgs/brasil.svg"
+import {ReactComponent as Usa} from "../../assets/svgs/usa.svg"
 
 export default function Home( ){
      return(
@@ -24,7 +26,7 @@ export default function Home( ){
                          <a href="">Download CV <BsDownload /></a>
                     </div>
                     <div className={styles.home__info__tecs}>
-                         <h3>Tecnologias:</h3>
+                         <h3>Tecs:</h3>
                          <ul>
                               <li><ReactLogo/></li>
                               <li><VueLogo/></li>
@@ -35,6 +37,7 @@ export default function Home( ){
                          </ul>
                     </div>
                </div>
+               <button><Bra/></button>
           </div>
      )
 }
