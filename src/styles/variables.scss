@@ -64,3 +64,29 @@ $xxl: 2050px;
           }
      }
 }
+
+@mixin animation($trY1, $trY2){
+     -webkit-animation: slide-top 1.7s ease-in-out infinite alternate ;
+     animation: slide-top 1.7s ease-in-out infinite alternate ;
+
+     @-webkit-keyframes slide-top {
+          0% {
+            -webkit-transform: translateY($trY1);
+                    transform: translateY($trY1);
+          }
+          100% {
+            -webkit-transform: translateY($trY2);
+                    transform: translateY($trY2);
+          }
+        }
+        @keyframes slide-top {
+          0% {
+            -webkit-transform: translateY($trY1);
+                    transform: translateY($trY1);
+          }
+          100% {
+            -webkit-transform: translateY($trY2);
+                    transform: translateY($trY2);
+          }
+        }
+}

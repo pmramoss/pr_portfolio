@@ -258,3 +258,9 @@
           }
      }    
 }
+
+.slide_top{
+     @include breakpoint(xl){
+          @include animation(15px, -15px)
+     }
+}

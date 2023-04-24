@@ -17,7 +17,7 @@ export default function Home({content}: Props){
      return(
           <div id="home" className={styles.home}>
                <div className={styles.home__image}>
-                    <img src={ast} alt="" />
+                    <img className={styles.slide_top} src={ast} />
                </div>
                <div className={styles.home__info}>
                     <div className={styles.home__info__text}>
