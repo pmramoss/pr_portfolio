@@ -6,7 +6,7 @@
           "Nav4": "Certificações",
 
           "Home_text1": "Olá, eu sou",
-          "Home_text3": "Desenvolvedor Front-end",
+          "Home_text2": "Desenvolvedor Front-end",
 
           "Aboutme_Title": "Sobre mim",
 
@@ -22,15 +22,7 @@
           "Projects_descript2": "Página informativa sobre ChatGPT3 usando template do Figma. Originalmente em css puro, adaptei para Sass para praticar meu conhecimento com a biblioteca.",
           "Projects_descript3": "Formulário com verificação. Após preenchê-lo totalmente e sem erros, será redirecionado a uma nova página, indicando sucesso no cadastro.",
 
-          "Certificate_title": "Certificações",
-
-          "Certificate_name1": "React: integrando seu projeto React com APIs",
-          "Certificate_name2": "React: lidando com arquivos estáticos",
-          "Certificate_name3": "React: escrevendo com Typescript",
-          "Certificate_name4": "React: conhecendo a biblioteca React Router",
-          "Certificate_name5": "React: abstraindo seu CSS com Styled Components",
-          "Certificate_name6": "SASS: CSS sintaticamente espetacular",
-          "Certificate_name7": "Vue JS 2 - Vue Router & Vuex"
+          "Certificate_title": "Certificações"
      },
      "english":{
           "Nav1": "Home",
@@ -39,13 +31,13 @@
           "Nav4": "Certifications",
 
           "Home_text1": "Hi, I am",
-          "Home_text3": "Front-end Developer",
+          "Home_text2": "Front-end Developer",
 
           "Aboutme_Title": "About me",
 
           "Aboutme_text1": "Passionate for programming, I've been studying for several months and adquired good knowlegdes in front-end such as ",
           "Aboutme_text2": "React, Vue, Typescript, AEM(Adobe Experience Manager), Sass and Styled Components",
-          "Aboutme_text3": ". Good team worker and have solid communicative skills. Ready to show you what I can do.",
+          "Aboutme_text3": ". I'm a good team worker and I also have solid communicative skills. Ready to show you what I can do.",
 
           "Aboutme_link": "Certifications",
 
@@ -55,14 +47,6 @@
           "Projects_descript2": "Informative page about ChatGPT3 using a Figma template. Originally made using only css, I rewrote the code using Sass for practice purposes.",
           "Projects_descript3": "Form with validation. After being fully filled and without errors, you'll be redirected to a new page which will indicate that the registration has been completed.",
 
-          "Certificate_title": "Certifications",
-
-          "Certificate_name1": "React: Integrating your React project with APIs",
-          "Certificate_name2": "React: dealing with static files",
-          "Certificate_name3": "React: writing with Typescript",
-          "Certificate_name4": "React: getting to know the React Router library",
-          "Certificate_name5": "React: abstracting your CSS with Styled Components",
-          "Certificate_name6": "SASS: Syntactically Spectacular CSS",
-          "Certificate_name7": "Vue JS 2 - Vue Router & Vuex"
+          "Certificate_title": "Certifications"
      }
 }

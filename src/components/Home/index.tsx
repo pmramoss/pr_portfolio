@@ -7,10 +7,13 @@ import {ReactComponent as VueLogo} from "../../assets/svgs/vue.svg"
 import {ReactComponent as TypeLogo} from "../../assets/svgs/typescript.svg"
 import {ReactComponent as SassLogo} from "../../assets/svgs/sass.svg"
 import {ReactComponent as AdobeLogo} from "../../assets/svgs/adobe.svg"
-import {ReactComponent as Bra} from "../../assets/svgs/brasil.svg"
-import {ReactComponent as Usa} from "../../assets/svgs/usa.svg"
+import { IContent } from "../../types/content";
 
-export default function Home( ){
+interface Props {
+     content: IContent
+}
+
+export default function Home({content}: Props){
      return(
           <div id="home" className={styles.home}>
                <div className={styles.home__image}>
@@ -18,9 +21,9 @@ export default function Home( ){
                </div>
                <div className={styles.home__info}>
                     <div className={styles.home__info__text}>
-                         <h3>Olá, eu sou</h3>
+                         <h3>{content.Home_text1}</h3>
                          <h1>Pedro Lucas Ramos</h1>
-                         <h3>Desenvolvedor Front-end</h3>
+                         <h3>{content.Home_text2}</h3>
                     </div>
                     <div className={styles.home__info__link}>
                          <a href="">Download CV <BsDownload /></a>
@@ -37,7 +40,6 @@ export default function Home( ){
                          </ul>
                     </div>
                </div>
-               <button><Bra/></button>
           </div>
      )
 }

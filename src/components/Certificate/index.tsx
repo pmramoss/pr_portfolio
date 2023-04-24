@@ -1,6 +1,11 @@
 import styles from "./Certificate.module.scss"
+import { IContent } from "../../types/content";
 
-export default function Certificate( ){
+interface Props {
+     content: IContent
+}
+
+export default function Certificate({content}: Props){
      const courses =[{
           name: "React: Integrating your React project with APIs",
           path: "https://cursos.alura.com.br/certificate/72c58814-bf41-455a-b5d0-f76094152fce" 
@@ -27,7 +32,7 @@ export default function Certificate( ){
      return (
           <div id="certificates" className={styles.certificates}>
                <div className={styles.certificates__title}>
-                    <h1>Certificações</h1>
+                    <h1>{content.Certificate_title}</h1>
                </div>
                <div className={styles.certificates__courses}>
                     <ul>

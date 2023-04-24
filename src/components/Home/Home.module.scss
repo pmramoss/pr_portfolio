@@ -257,49 +257,4 @@
                }
           }
      }    
-
-     button {
-          position: fixed;
-          cursor: pointer;
-          @include centralize;
-          border-radius: 45px 45px 45px;
-          @include breakpoint(xs){
-               box-shadow: 0 0 3px 1px white;
-               top: 33.5rem;
-               right: 1.7rem;
-               & > svg {
-                    width: 30px;
-                    height: 30px;
-               }
-          }
-          @include breakpoint(sm){
-               top: 31.5rem;
-               right: 1.7rem;
-               &:hover{
-                    box-shadow: 0 0 10px 3px white;
-               }
-               & > svg {
-                    width: 50px;
-                    height: 50px;
-               }
-          }
-          @include breakpoint(xl){
-               top: 52rem;
-               right: 3rem;
-               &:hover{
-                    box-shadow: 0 0 10px 3px white;
-               }
-               & > svg {
-                    width: 65px;
-                    height: 65px;
-               }
-          }
-          @include breakpoint(xxl){
-               top: 68.5rem;
-               & > svg {
-                    width: 65px;
-                    height: 65px;
-               }
-          }
-     }
 }
