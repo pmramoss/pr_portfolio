@@ -16,8 +16,8 @@ export default function Projects({content}: Props){
                     <h2>{content.Projects_title}</h2>
                </div>
                <Container image={aluroni} name="Aluroni" descript={content.Projects_descript1} tag1="React" tag2="Sass" github="https://github.com/pmramoss" link="https://www.google.com/"/>
-               <Container image={chatgpt3} name="ChatGPT3" descript={content.Projects_descript2} tag1="React" tag2="Sass" github="https://github.com/pmramoss" link="https://www.google.com/"/>
-               <Container image={form} name="Form" descript={content.Projects_descript3} tag1="React" tag2="Styled Components" github="https://github.com/pmramoss" link="https://www.google.com/"/>
+               <Container image={chatgpt3} name="ChatGPT3" descript={content.Projects_descript2} tag1="React" tag2="Sass" github="https://github.com/pmramoss/ChatGPT3" link="https://chat-gpt-3-ashen.vercel.app/"/>
+               <Container image={form} name="Form" descript={content.Projects_descript3} tag1="React" tag2="Styled Components" github="https://github.com/pmramoss/signup_wvr" link="https://signup-wvr.vercel.app/"/>
           </div>
      )
 }
