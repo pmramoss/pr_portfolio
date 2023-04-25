@@ -21,6 +21,7 @@
           "Projects_descript1": "Seguindo o contexto de um restaurante, é uma página feita para dar informações sobre os pratos. Utiliza de bibliotecas como React Router e React Icons.",
           "Projects_descript2": "Página informativa sobre ChatGPT3 usando template do Figma. Originalmente em css puro, adaptei para Sass para praticar meu conhecimento com a biblioteca.",
           "Projects_descript3": "Formulário com verificação. Após preenchê-lo totalmente e sem erros, será redirecionado a uma nova página, indicando sucesso no cadastro.",
+          "Projects_descript4": "Criei meu portfolio usando React Icons, Sass e Typescript. Também criei um arquivo json para ter a opção de mudar entre linguas ao clicar no botao.",
 
           "Certificate_title": "Certificações"
      },
@@ -46,6 +47,7 @@
           "Projects_descript1": "Following the context of a restaurant, it was made to give the clients the informations about the menu. In this project I utilized React Router to link the pages and React Icons.",
           "Projects_descript2": "Informative page about ChatGPT3 using a Figma template. Originally made using only css, I rewrote the code using Sass for practice purposes.",
           "Projects_descript3": "Form with validation. After being fully filled and without errors, you'll be redirected to a new page which will indicate that the registration has been completed.",
+          "Projects_descript4": "Created my portfolio using React Icons, Sass and Typescript. I also created a json file to have the option to switch languages by clicking in the button.",
 
           "Certificate_title": "Certifications"
      }

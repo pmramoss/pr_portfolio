@@ -14,5 +14,6 @@ export interface IContent {
      Projects_descript1: string;
      Projects_descript2: string;
      Projects_descript3: string;
+     Projects_descript4: string;
      Certificate_title: string;
 }
