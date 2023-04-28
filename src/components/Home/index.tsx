@@ -27,7 +27,7 @@ export default function Home({content}: Props){
                          <h3>{content.Home_text2}</h3>
                     </div>
                     <div className={styles.home__info__link}>
-                         <a href="https://liveestacio-my.sharepoint.com/:w:/g/personal/202108468487_alunos_estacio_br/EV5qrr0EMu5NvxVXVvykFHMBCfoWTnqciuLJyW9rhalcgw?e=08P0lX" target="_blank">Download CV <BsDownload /></a>
+                         <a href={cv} target="_blank">Download CV <BsDownload /></a>
                     </div>
                     <div className={styles.home__info__tecs}>
                          <h3>Tecs:</h3>
